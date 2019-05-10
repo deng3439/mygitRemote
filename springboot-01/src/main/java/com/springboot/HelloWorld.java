@@ -1,0 +1,23 @@
+package com.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @SpringBootApplication  声明一个应用
+ * @author deng
+ *
+ */
+@SpringBootApplication
+public class HelloWorld {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		//spring应用启动
+		SpringApplication.run(HelloWorld.class, args);
+	}
+
+}

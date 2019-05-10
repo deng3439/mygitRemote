@@ -1,0 +1,15 @@
+server: 
+    port: 8081
+    
+    
+parent:
+    name: zhangsan
+    age: 30
+    brithday: 1999/0202
+    maps: {k1: v1,k2: v2}
+    list:
+     - lisi
+     - dadadada
+    dog:
+      name: bubao
+      age: 2
